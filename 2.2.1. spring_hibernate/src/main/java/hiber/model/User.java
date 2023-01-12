@@ -31,6 +31,12 @@ public class User {
       this.email = email;
    }
 
+   public User(String firstName, String lastName, String email, Car car) {
+      this.firstName = firstName;
+      this.lastName = lastName;
+      this.email = email;
+   }
+
    public Long getId() {
       return id;
    }
